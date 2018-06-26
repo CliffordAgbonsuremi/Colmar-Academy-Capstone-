@@ -42,3 +42,52 @@ header .logo{
 header .colmar{
   font-weight: 600;
 }
+
+#sign-up-content {
+  background-color: #D3D3D3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#sign-up-content img {
+  max-width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.content-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 32.5rem;
+  padding-left: 2rem;
+  flex-grow: 1
+}
+
+.content-center h1{
+  font-size: 3.5rem;
+  font-weight: 800;
+  color:#3a3a3a;
+}
+.content-center h2{
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 2rem 0;
+  color:#3a3a3a;
+}
+
+.sign-up-button :hover{
+  background-color: #361554;
+}
+
+.button-content{
+  background-color:#3a3a3a;
+  padding: 0.5rem 0;
+  text-align: center;
+  transition: background-color 750ms linear;
+}
+
+.sign-up-button a{
+  color:white;
+  font-size: 1.5rem;
+}
