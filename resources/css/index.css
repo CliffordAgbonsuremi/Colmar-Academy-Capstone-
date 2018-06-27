@@ -60,7 +60,7 @@ header .colmar{
   flex-direction: column;
   justify-content: space-between;
   max-width: 32.5rem;
-  padding-left: 2rem;
+  padding-left: 3rem;
   flex-grow: 1
 }
 
@@ -87,7 +87,114 @@ header .colmar{
   transition: background-color 750ms linear;
 }
 
-.sign-up-button a{
+.sign-up-button span{
   color:white;
   font-size: 1.5rem;
+}
+
+
+#news-content{
+  display: flex;
+  flex-direction:row;
+}
+
+
+
+.news-section {
+  display: flex;
+}
+
+.headline {
+    max-width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.headline img {
+    max-width: 100%;
+}
+
+.headline h1{
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color:#3a3a3a;
+}
+
+.headline h2 {
+  padding: 24px 24px 24px 0px;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  color:#3a3a3a;
+}
+.headline p {
+  padding-top: 1rem;
+  color: black;
+}
+
+
+.news-section .news-articles {
+  border-left: 1px solid #DCDCDC;
+  padding: 1rem 0 2rem 0;
+
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.desktop-image {
+  width: 35%;
+  padding: 16px;
+}
+
+.mobile {
+  display: none;
+}
+
+.text {
+  padding: 16px 1px 16px 0px;
+  width: 100%;
+  line-height: 1.4;
+}
+
+.text h3 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color:#3a3a3a;
+}
+
+.text p {
+  padding-top: 8px;
+  font-size: 1.2rem;
+  color:#3a3a3a;
+  max-width:95%;
+}
+
+.text a p {
+  color: #4ba3f4;
+  font-size: 1.2rem;
+  display: block;
+  padding-top: .9rem;
+}
+
+.second-info {
+  border-top: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.text a :hover {
+  color:#77b9f6;
+  text-decoration: underline;
+}
+
+.article :hover{
+  background-color: #dbdbdb;
+}
+
+.article{
+
 }
