@@ -195,6 +195,57 @@ header .colmar{
   background-color: #dbdbdb;
 }
 
-.article{
+.courses{
+  padding: 2rem 4.5rem;
+  background-color: #D3D3D3;
+  margin: 0 auto;
+}
 
+.courses-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 1;
+}
+
+
+.courses h1{
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color:#3a3a3a;
+  max-width:100%;
+}
+
+.course h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color:#3a3a3a;
+}
+
+.course p {
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color:#3a3a3a;
+  max-width:90%;
+  width: 400px;
+
+}
+
+.course{
+  background-color: white;
+  margin: 2rem;
+  width: 25%;
+}
+
+.course img{
+  max-width: 100%;
+}
+
+.course-text {
+  padding: 1rem 0 1rem 1.5rem;
+  width: 100%;
 }
