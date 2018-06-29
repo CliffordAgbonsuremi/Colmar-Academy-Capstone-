@@ -249,3 +249,72 @@ header .colmar{
   padding: 1rem 0 1rem 1.5rem;
   width: 100%;
 }
+
+
+
+
+
+
+.main-thesis video{
+  max-width: 100%;
+}
+
+.thesis h1{
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color:#3a3a3a;
+  max-width:100%;
+}
+
+.thesis-section {
+  display: flex;
+}
+
+.main-thesis {
+    max-width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.main-thesis img {
+    max-width: 100%;
+}
+
+.main-thesis h1{
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color:#3a3a3a;
+  text-align: left;
+}
+
+.main-thesis h2 {
+  padding: 24px 24px 24px 0px;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  color:#3a3a3a;
+}
+.main-thesis p {
+  padding-top: 1rem;
+  color: black;
+}
+
+
+.thesis-section .other-thesis {
+  padding: 1rem 0 2rem 0;
+
+}
+
+.desktop-image {
+  width: 35%;
+  padding: 16px;
+}
+
+.mobile {
+  display: none;
+}
+
+.ind-thesis :hover{
+  background-color: #dbdbdb;
+}
