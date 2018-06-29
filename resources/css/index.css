@@ -318,3 +318,16 @@ header .colmar{
 .ind-thesis :hover{
   background-color: #dbdbdb;
 }
+
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #DCDCDC;
+}
+
+.footer-content nav ul{
+  display: flex;
+  padding-right: 1rem;
+}
