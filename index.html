@@ -5,6 +5,7 @@
     <title>Colmar Academy</title>
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900|Space+Mono:400,700" rel="stylesheet">
   </head>
   <body>
     <!-- Header -->
@@ -12,7 +13,7 @@
       <div class="content">
         <div class="logo">
           <img src="./resources/images/ic-logo.svg" alt="Colmar Academy">
-          <a href="index.html" class="desktop logo"><span class="colmar">COLMAR</span>ACADEMY</a>
+          <a href="index.html" class="desktop-logo"><span class="colmar">COLMAR</span>ACADEMY</a>
         </div>
         <nav class="desktop">
           <ul>
@@ -23,11 +24,10 @@
           </ul>
         </nav>
         <nav class="mobile">
-          <ul>
-            <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
-            <li><a href="#"><img src="./resources/images/ic-product-detail.svg"></a></li>
-            <li><a href="#"><img src="./resources/images/ic-about-us.svg"></a></li>
-            <li><a href="#" class="button">Join us</a></li>
+          <a href="#"><img src="./resources/images/ic-logo.svg" alt="Colmar Academy"></a>
+          <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="Colmar Academy"></a>
+          <a href="#"><img src="./resources/images/ic-online.svg"></a>
+          <a href="#"><img src="./resources/images/ic-login.svg"></a>
           </ul>
         </nav>
       </div>
@@ -46,9 +46,7 @@
             <a href="#">
               <div class="sign-up-button">
                 <div class="button-content">
-                  <span>
-                    Start here
-                  </span>
+                  Start here
                 </div>
               </div>
             </a>
@@ -70,7 +68,7 @@
             <div class="first-info article">
               <div class="info">
                 <img class="desktop-image" src="./resources/images/information-orientation.jpg" alt="Campus Walk"/>
-                <img class="mobile" src="./resources/images/information-orientation-mobile.jpg" alt="Campus Walk"/>
+                <img class="mobile-image" src="./resources/images/information-orientation-mobile.jpg" alt="Campus Walk"/>
                 <div class="text">
                   <h3>Orientation Date</h3>
                   <p>Tues 10/11 & Wed 10/12: 8am-3pm</p>
@@ -84,7 +82,7 @@
             <div class="second-info article">
               <div class="info">
                 <img class="desktop-image" src="./resources/images/information-campus.jpg" alt="Classes"/>
-                <img class="mobile" src="./resources/images/information-campus-mobile.jpg" alt="Classes"/>
+                <img class="mobile-image" src="./resources/images/information-campus-mobile.jpg" alt="Classes"/>
                 <div class="text">
                   <h3>Our Campus</h3>
                   <p>Find which campus is close by you</p>
@@ -99,7 +97,7 @@
             <div class="third-info article">
               <div class="info">
                 <img class="desktop-image" src="./resources/images/information-guest-lecture.jpg" alt="Guest Lecturer"/>
-                <img class="mobile" src="./resources/images/information-guest-lecture-mobile.jpg" alt="Guest Lecturer"/>
+                <img class="mobile-image" src="./resources/images/information-guest-lecture-mobile.jpg" alt="Guest Lecturer"/>
                 <div class="text">
                   <h3>Our guest lecture</h3>
                   <p>Join a keynote with Oliver Sack about music about medical treatment</p>
@@ -133,47 +131,57 @@
             </div>
 
             <div class="course">
-              <img src="./resources/images/course-computer-art.jpg" alt="Cell Phone">
-              <div class="course-text">
-                <h3>Computer Art</h3>
-                <p>COURSES</p>
-                <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              <div class="course-hover">
+                <img src="./resources/images/course-computer-art.jpg" alt="Cell Phone">
+                <div class="course-text">
+                  <h3>Computer Art</h3>
+                  <p>COURSES</p>
+                  <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                </div>
               </div>
             </div>
 
             <div class="course">
-              <img src="./resources/images/course-design.jpg" alt="Person holding a vintage camera">
-              <div class="course-text">
-                <h3>Design</h3>
-                <p>COURSES</p>
-                <p>User Experience Design, User Research, Visual Design</p>
+              <div class="course-hover">
+                <img src="./resources/images/course-design.jpg" alt="Person holding a vintage camera">
+                <div class="course-text">
+                  <h3>Design</h3>
+                  <p>COURSES</p>
+                  <p>User Experience Design, User Research, Visual Design</p>
+                </div>
               </div>
             </div>
 
             <div class="course">
-              <img src="./resources/images/course-data.jpg" alt="Laptop with visualized data">
-              <div class="course-text">
-                <h3>Data</h3>
-                <p>COURSES</p>
-                <p>Data Science, Big data, SQL, Data, Visualization</p>
+              <div class="course-hover">
+                <img src="./resources/images/course-data.jpg" alt="Laptop with visualized data">
+                <div class="course-text">
+                  <h3>Data</h3>
+                  <p>COURSES</p>
+                  <p>Data Science, Big data, SQL, Data, Visualization</p>
+                </div>
               </div>
             </div>
 
             <div class="course">
-              <img src="./resources/images/course-business.jpg" alt="Chess">
-              <div class="course-text">
-                <h3>Business</h3>
-                <p>COURSES</p>
-                <p>Product Development, Business Development, Startup</p>
+              <div class="course-hover">
+                <img src="./resources/images/course-business.jpg" alt="Chess">
+                <div class="course-text">
+                  <h3>Business</h3>
+                  <p>COURSES</p>
+                  <p>Product Development, Business Development, Startup</p>
+                </div>
               </div>
             </div>
 
             <div class="course">
-              <img src="./resources/images/course-marketing.jpg" alt="Smart Watch">
-              <div class="course-text">
-                <h3>Marketing</h3>
-                <p>COURSES</p>
-                <p>Analytics, Content Marketing, Mobile Marketing</p>
+              <div class="course-hover">
+                <img src="./resources/images/course-marketing.jpg" alt="Smart Watch">
+                <div class="course-text">
+                  <h3>Marketing</h3>
+                  <p>COURSES</p>
+                  <p>Analytics, Content Marketing, Mobile Marketing</p>
+                </div>
               </div>
             </div>
 

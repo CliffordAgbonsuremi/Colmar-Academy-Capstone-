@@ -11,9 +11,6 @@ header .content {
   background-color: white;
 }
 
-header .logo {
-  flex: 1;
-}
 
 header nav ul {
   display: flex;
@@ -38,6 +35,7 @@ header .logo{
   display: flex;
   align-items: center;
   height:2rem;
+  flex: 1;
 }
 header .colmar{
   font-weight: 600;
@@ -77,28 +75,22 @@ header .colmar{
 }
 
 .sign-up-button :hover{
-  background-color: #361554;
+  background-color: #310454;
 }
 
 .button-content{
   background-color:#3a3a3a;
   padding: 0.5rem 0;
   text-align: center;
-  transition: background-color 750ms linear;
-}
-
-.sign-up-button span{
+  transition: all 750ms linear;
   color:white;
   font-size: 1.5rem;
 }
-
 
 #news-content{
   display: flex;
   flex-direction:row;
 }
-
-
 
 .news-section {
   display: flex;
@@ -131,11 +123,9 @@ header .colmar{
   color: black;
 }
 
-
 .news-section .news-articles {
   border-left: 1px solid #DCDCDC;
   padding: 1rem 0 2rem 0;
-
 }
 
 .info {
@@ -143,7 +133,6 @@ header .colmar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .desktop-image {
@@ -151,7 +140,7 @@ header .colmar{
   padding: 16px;
 }
 
-.mobile {
+.mobile-image {
   display: none;
 }
 
@@ -232,6 +221,7 @@ header .colmar{
   color:#3a3a3a;
   max-width:90%;
   width: 400px;
+  transition: all 0.3s;
 
 }
 
@@ -239,21 +229,25 @@ header .colmar{
   background-color: white;
   margin: 2rem;
   width: 25%;
+  overflow: hidden;
 }
 
 .course img{
   max-width: 100%;
+  transition: all 0.3s linear;
+}
+
+.course :hover img{
+  transform: scale(1.1);
+}
+.course :hover h3{
+  color: #A9A9A3;
 }
 
 .course-text {
   padding: 1rem 0 1rem 1.5rem;
   width: 100%;
 }
-
-
-
-
-
 
 .main-thesis video{
   max-width: 100%;
@@ -300,15 +294,8 @@ header .colmar{
   color: black;
 }
 
-
 .thesis-section .other-thesis {
   padding: 1rem 0 2rem 0;
-
-}
-
-.desktop-image {
-  width: 35%;
-  padding: 16px;
 }
 
 .mobile {
@@ -330,4 +317,91 @@ header .colmar{
 .footer-content nav ul{
   display: flex;
   padding-right: 1rem;
+}
+
+@media only screen and (max-width: 1080px) {
+/* Header Section */
+  header .content .logo{
+    display: none;
+  }
+  .content .desktop{
+    display: none;
+  }
+  .content .mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+/* Sign-up-Section */
+  #sign-up-content{
+    flex-direction: column;
+  }
+  .sign-up-button{
+    width: 90%;
+    margin: 2rem 0;
+  }
+
+  /* News Section */
+  .headline{
+    display: none;
+  }
+  .desktop-image{
+    display: none;
+  }
+  .mobile-image{
+    display:flex;
+  }
+  .info{
+    display: block;;
+  }
+  .news-section{
+    justify-content: center;
+    padding: 1rem;
+  }
+  .second-info{
+    border: none;
+  }
+  .news-section .news-articles{
+    border: none;
+  }
+  .article :hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  /* Course Section */
+  .course img{
+    display: none;
+  }
+  .course-text p{
+    display: none;
+  }
+  .courses-container{
+    display: block;
+  }
+  .course{
+    width: 100%;
+    margin:0.5rem;
+  }
+  .course :hover h3{
+    color: #A9A9A3;
+  }
+  /* Thesis Section */
+  .main-thesis h1, h2{
+    display: none;
+  }
+  .other-thesis{
+    display: none;
+  }
+  .thesis-section{
+    justify-content: center;
+  }
+  .thesis h1{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .main-thesis{
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+  }
 }
